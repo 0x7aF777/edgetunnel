@@ -1,8 +1,7 @@
-name = "edgetunnel"
-main = "_worker.js"
+name = "web-tools"
 compatibility_date = "2024-09-23"
 compatibility_flags = ["nodejs_compat"]
-keep_vars = true
+pages_build_output_dir = "./dist"
 
 [[kv_namespaces]]
 binding = "KV"
