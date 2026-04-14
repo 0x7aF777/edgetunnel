@@ -2596,7 +2596,7 @@ async function 读取config_JSON(env, hostname, userID, UA = "Mozilla/5.0", 重�
 			TOKEN: await MD5MD5(hostname + userID),
 		},
 		订阅转换配置: {
-			SUBAPI: "", // HARDENED: removed author's sub API. Set your own if needed.
+			SUBAPI: "https://url.v1.mk", // public subconverter instance
 			SUBCONFIG: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/config/ACL4SSR_Online_Mini_MultiMode.ini",
 			SUBEMOJI: false,
 		},
